@@ -37,13 +37,16 @@ void countBits(int n)
                   }
                 }
          }
-               num[l++]=count;
+          num[l++]=count;
          memset(binary, 0, (n + 1) * sizeof(int)); 
     }    
     for(int i=0;i<l;i++)
     {
         printf("%d\t",num[i]);
     }
+
+
+    
 }
 int main()
 {
